@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Castoro", Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2vh;
+
+    background-color: #3d550c;
+    color: #ffffff;
+}
+
+header div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+}
+
+.button-header{
+    padding: 1vh 2vh 1vh 2vh;
+    border-radius: 60vh;
+    border: none;
+    color: #000000;
+    background-color: #81b622;
+    font-size: 15px;
+
+    cursor: pointer;
+}
+
+main, section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    gap: 2vh;
+    padding: 15%;
+}
+
+section form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #d0db71;
+    padding: 3vh;
+    width: 100%;
+
+    border-radius: 20px;
+}
+
+form div{
+    padding: 2vh;
+}
+
+#senha, #email, #confirmSenha{
+    background-color: #e6ead8;
+    padding: 1.5vh;
+    border-radius: 15px;
+    border: #000000 1px solid;
+    width: 30vh;
+}
+
+section button{
+    background-color: #81b622;
+    border: #000000 1px solid;
+    padding: 1vh 2vh;
+    font-size: 24px;
+    border-radius: 15px;
+    cursor: pointer;
+}

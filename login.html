@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dançando Juntos - Login</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <Header>
+        <h1>Logo</h1>
+
+        <div>
+            <h2>Não possui cadastro?</h2>
+
+            <button class="button-header" id="buttonCadas">Cadastrar</button>
+        </div>
+    </Header>
+
+    <main>
+        <section>
+            <form action="loginForm">
+                <div>
+                    <h3>E-mail</h3>
+                    <input type="email" name="email" id="email">
+                </div>
+
+                <div>
+                    <h3>Senha</h3>
+                    <input type="password" name="senha" id="senha">
+                </div>
+            </form>
+
+            <button type="submit" id="buttonEntrar" onclick="msgButton()">Entrar</button>
+        </section>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
